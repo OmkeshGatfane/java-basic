@@ -1,9 +1,13 @@
 package org.example;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 class Student implements Comparable<Student> {
     String name;
@@ -86,5 +90,17 @@ public class CompareExample {
             System.out.println(student.name + " - " + student.age + " - " + student.grade);
 
         }
+
+
+        Map<String,Integer> map = new HashMap<>();
+        map.put("One",1);
+        map.put("Two",2);
+        map.put("Three",3);
+
+        map.forEach((k,v) -> System.out.println(k + " : " + v));
+
+        List<Integer> numbers = Arrays.asList(5, 3, 8, 1, 2);
+        Collections.sort(numbers, Comparator.reverseOrder());
+        System.out.println("Sorted numbers in descending order: " + numbers);
     }
 }

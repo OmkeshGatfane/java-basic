@@ -1,4 +1,4 @@
-package org.example;
+package org.example.core;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.core;
 
 
 class MyThread extends Thread {

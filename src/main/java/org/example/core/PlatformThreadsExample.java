@@ -1,4 +1,4 @@
-package org.example;
+package org.example.core;
 
 import java.net.http.HttpClient;
 import java.util.ArrayList;

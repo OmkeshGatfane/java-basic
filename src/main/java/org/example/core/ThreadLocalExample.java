@@ -1,4 +1,4 @@
-package org.example;
+package org.example.core;
 
 public class ThreadLocalExample {
 public static void main(String...args) {

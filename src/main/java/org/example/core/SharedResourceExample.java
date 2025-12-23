@@ -1,4 +1,4 @@
-package org.example;
+package org.example.core;
 
 class SharedResource {
     private  boolean flag = false;

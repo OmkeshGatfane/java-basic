@@ -1,4 +1,4 @@
-package org.example.designPattern.Facade;
+package org.example.designPattern.facade;
 
 public class DVDPlayer {
     public void on(){
